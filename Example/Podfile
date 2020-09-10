@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'module_network_Example' do
+  pod 'module_network', :path => '../'
+
+  target 'module_network_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
