@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'moduleNetwork-iOS'
+  s.name             = 'module_network'
   s.version          = '0.0.2'
   s.summary          = 'A short description of module_network.'
 
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.dependency       'AFNetworking', '3.2.1'
 
-  s.source_files = 'module_network/Classes/**/*'
+  s.source_files = 'module_network/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'module_network' => ['module_network/Assets/*.png']
