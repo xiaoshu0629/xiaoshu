@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - module_network (0.0.2):
-    - AFNetworking (= 3.2.1)
+    - AFNetworking (~> 3.2.1)
 
 DEPENDENCIES:
   - module_network (from `../`)
@@ -30,8 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  module_network: b89dca4aa4e111d09651167b78be2e3211756b67
+  module_network: f61931c24dd4b56405815a189fbd489ea56f94bb
 
 PODFILE CHECKSUM: 8e16c88e330f829f2356e4be54c2015e20d8f204
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.8.4
