@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'module_network'
   s.version          = '0.0.3'
-  s.summary          = 'A short description of module_network.'
+  s.summary          = 'network request for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,29 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaoshu' => 'xiaoshu@xiaoyezi.com' }
-  s.source           = { :git => 'https://github.com/xiaoshu0629/xiaoshu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'ssh://codereview.xiaoyezi.com:29418/moduleNetwork-iOS', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.frameworks   = 'Foundation', 'UIKit'
+  s.dependency 'AFNetworking', '~> 3.2.1'
 
-  s.dependency       'AFNetworking', '~> 3.2.1'
-
-  s.subspec 'Manager' do |ss|
-
-  ss.source_files = 'module_network/Manager/**/*.{h,m}'
-
-  ss.public_header_files = "module_network/Manager/**/*.{h}"
-
-  end
-  s.subspec 'NetReachability' do |ss|
-
-  ss.source_files = 'module_network/NetReachability/**/*.{h,m}'
-
-  ss.public_header_files = "module_network/NetReachability/**/*.{h}"
-
-  end
+  s.source_files = "module_network/Manager/*.{h,m}","module_network/NetReachability/*.{h,m}"
   
   # s.resource_bundles = {
   #   'module_network' => ['module_network/Assets/*.png']
