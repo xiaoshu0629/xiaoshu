@@ -30,15 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.ios.frameworks   = 'Foundation', 'UIKit'
+  s.frameworks   = 'Foundation', 'UIKit'
 
   s.dependency       'AFNetworking', '~> 3.2.1'
 
-  # s.source_files = 'module_network/**/*.{h,m}'
+  s.source_files            = '**/*.{h,m}'
 
-  s.subspec 'Manager' do |ss|
-      ss.source_files = 'module_network/**/*.{h,m}'
-  end
+  #s.subspec 'module_network' do |ss|
+  #    ss.source_files = 'module_network/**/*.{h,m}'
+  #end
   
   # s.resource_bundles = {
   #   'module_network' => ['module_network/Assets/*.png']
