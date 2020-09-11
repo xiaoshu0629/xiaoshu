@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.dependency       'AFNetworking', '~> 3.2.1'
 
-  s.source_files = './module_network/**/*.{h,m}'
+  s.source_files = 'module_network/**/*'
   
   # s.resource_bundles = {
   #   'module_network' => ['module_network/Assets/*.png']
