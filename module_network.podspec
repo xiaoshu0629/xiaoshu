@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'module_network'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of module_network.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xiaoshu/module_network'
+  s.homepage         = 'https://github.com/xiaoshu0629/xiaoshu.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaoshu' => 'xiaoshu@xiaoyezi.com' }
