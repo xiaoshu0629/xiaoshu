@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xiaoshu/module_network'
+  s.homepage         = 'https://github.com/lp0int/xiaoshu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaoshu' => 'xiaoshu@xiaoyezi.com' }
-  s.source           = { :git => 'https://github.com/xiaoshu/module_network', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lp0int/xiaoshu', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,6 +35,20 @@ TODO: Add long description of the pod here.
   s.dependency       'AFNetworking', '~> 3.2.1'
 
   s.source_files = 'module_network/**/*'
+  s.subspec 'Manager' do |ss|
+
+  ss.source_files = 'module_network/Manager/**/*.{h,m}'
+
+  ss.public_header_files = "module_network/Manager/**/*.{h}"
+
+  end
+  s.subspec 'NetReachability' do |ss|
+
+  ss.source_files = 'module_network/NetReachability/**/*.{h,m}'
+
+  ss.public_header_files = "module_network/NetReachability/**/*.{h}"
+
+  end
   
   # s.resource_bundles = {
   #   'module_network' => ['module_network/Assets/*.png']
