@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		2CEDFA6723256E71452DCD39 /* Pods_module_network_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_module_network_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		457D4A7DBDE2688F6F388D35 /* module_network.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = module_network.podspec; path = ../module_network.podspec; sourceTree = "<group>"; };
-		4A622C3591388FAFC9C0CEE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		457D4A7DBDE2688F6F388D35 /* module_network.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = module_network.podspec; path = ../module_network.podspec; sourceTree = "<group>"; };
+		4A622C3591388FAFC9C0CEE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* module_network_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = module_network_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		AC149397DCB005F05D5CD90F /* Pods-module_network_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-module_network_Tests.debug.xcconfig"; path = "Target Support Files/Pods-module_network_Tests/Pods-module_network_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0480DCB537CC08A8C5A02AA /* Pods-module_network_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-module_network_Example.release.xcconfig"; path = "Target Support Files/Pods-module_network_Example/Pods-module_network_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2133234CBB8317CDA96C069 /* Pods_module_network_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_module_network_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA63610AA4E66F9B951F3F6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA63610AA4E66F9B951F3F6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F7ACA4E30EEF2B8E6C40DF77 /* Pods-module_network_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-module_network_Example.debug.xcconfig"; path = "Target Support Files/Pods-module_network_Example/Pods-module_network_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				AC149397DCB005F05D5CD90F /* Pods-module_network_Tests.debug.xcconfig */,
 				A291A4D58CE7D2C2E94080F0 /* Pods-module_network_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "module_network/module_network-Prefix.pch";
 				INFOPLIST_FILE = "module_network/module_network-Info.plist";
+				MARKETING_VERSION = 0.0.2;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "module_network/module_network-Prefix.pch";
 				INFOPLIST_FILE = "module_network/module_network-Info.plist";
+				MARKETING_VERSION = 0.0.2;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
